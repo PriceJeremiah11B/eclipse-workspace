@@ -35,8 +35,8 @@ public class Collections {
 			System.out.println("This is an unsorted set: " + fruitSet);
 			
 			//sorted
-			TreeSet<String> fruitTree = new TreeSet<String>(fruitList);
-			fruitList.add("Bananas");
+			//TreeSet<String> fruitList1 = new TreeSet<String>(fruitList1);
+			//fruitList1.add("Bananas");
 			
 			//key/value unsorted
 			Map<String, Integer> fruitHashYum = new HashMap<>();
