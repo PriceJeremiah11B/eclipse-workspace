@@ -1,0 +1,24 @@
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+public class CreateJSON {
+	
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) {
+		//create a JSON Object
+		JSONObject obj = new JSONObject();
+		obj.put("name", "Saad Yousuf");
+		obj.put("location", "USA");
+		
+		
+		//create a JSON Array
+		JSONArray list = new JSONArray();
+		list.add("Java");
+		list.add("JSP");
+		list.add("Servlets");
+		
+		obj.put("courses", list);
+		
+		
+	}
+}
