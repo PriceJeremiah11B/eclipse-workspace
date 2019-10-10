@@ -48,7 +48,7 @@ public class Collections {
 			fruitTreeMap.put("Pear", 5553200);
 			System.out.println("Sorted Map " + fruitTreeMap);
 			
-			//queue
+			//new value
 			
 			
 			
