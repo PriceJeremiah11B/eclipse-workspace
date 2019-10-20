@@ -19,6 +19,7 @@ public class JSONWriteExample
 		jo.put("firstName", "John"); 
 		jo.put("lastName", "Smith"); 
 		jo.put("age", 25); 
+		jo.put("Gender", "Helicopter");
 		
 		// for address data, first create LinkedHashMap 
 		Map m = new LinkedHashMap(4); 
