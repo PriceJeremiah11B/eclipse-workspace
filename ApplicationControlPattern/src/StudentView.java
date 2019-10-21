@@ -6,4 +6,4 @@ class StudentView
 		System.out.println("Name: " + studentName); 
 		System.out.println("Roll No: " + studentRollNo); 
 	} 
-} 
+}
