@@ -2,6 +2,7 @@ package URL_request;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.ObjectInputFilter.Status;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -12,7 +13,7 @@ public class test_url1 {
 	private static HttpURLConnection connection;
 	public static void main(String[] args) {
 		
-		BufferedReader reader;
+		BufferedReader reader = null;
 		String line;
 		StringBuffer responseContent = new StringBuffer();
 		
@@ -38,18 +39,26 @@ public class test_url1 {
 		
 		if (status > 299) {
 			reader = new BufferedReader(new InputStreamReader(connection.getErrorStream()));
-		}
+		
 		
 		while ((line = reader.readLine()) != null) {
 			
 			responseContent.append(line);
 		}
 		
-		reader.close();
+		reader.close();	
+		} else {
+			reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+			while ((line = reader.readLine()) != null) {
+				responseContent.append(line);
+			}
+			
+		}
+		System.out.println(responseContent.toString());
 		
 		}
 		
-		catch (MalformedURLException e) {
+		catch (MalformedURLException e){
 			e.printStackTrace();
 		}
 		catch (IOException e) {
@@ -58,5 +67,7 @@ public class test_url1 {
 		
 		
 	}
-	
 }
+//this is method 1, which is meant for older Java.
+	
+

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Jerem\Documents\School\OnlineClasses_Fall-2019\CIT 360 Object Oriented Programmin\json simple"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Jerem\Documents\School\OnlineClasses_Fall-2019\CIT 360 Object Oriented Programmin\maven.json"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -23,5 +23,8 @@
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="2"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item key="create_package_info_java" value="false"/>
 	</section>
 </section>
