@@ -12,6 +12,7 @@ import org.json.JSONObject;
 public class test_url2 {
 
 	public static void main(String[] args) {
+		
 		//create a client
 		HttpClient client = HttpClient.newHttpClient();
 		//send the request, using the client, asynchronously.
