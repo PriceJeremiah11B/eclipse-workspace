@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Jerem\eclipse-workspace\JSPDemo"/>
 			<item value="C:\Users\Jerem\Documents\School\OnlineClasses_Fall-2019\CIT 360 Object Oriented Programmin\CIT360-Projects-master\JSON Tutorial"/>
 		</list>
 	</section>
