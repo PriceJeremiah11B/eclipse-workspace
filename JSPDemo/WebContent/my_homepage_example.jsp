@@ -1,0 +1,26 @@
+<html>
+<body>
+
+<jsp:include page="my_header.html"></jsp:include>
+
+Place holders....
+<br/><br/>
+Place holders....
+<br/><br/>
+Place holders....
+<br/><br/>
+Place holders....
+<br/><br/>
+Place holders....
+<br/><br/>
+Place holders....
+<br/><br/>
+Place holders....
+<br/><br/>
+Place holders....
+<br/><br/>
+
+<jsp:include page="my_footer.jsp"></jsp:include>
+
+</body>
+</html>
